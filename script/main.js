@@ -32,6 +32,19 @@ var mMove=function(e){
 	}
 }
 
+function clearScr(){
+	context.clearRect(0,0,canvas.width,canvas.height);
+}
+
+function save()
+{
+  if (canvas.getContext) {
+     var ctx = canvas.getContext("2d");
+     var myImage = canvas.toDataURL("image/png");
+  }
+  document.location.href = myImage;  
+}
+
 canvas.addEventListener('mousedown',mDown);
 canvas.addEventListener('mouseup',mUp);
 canvas.addEventListener('mousemove',mMove);

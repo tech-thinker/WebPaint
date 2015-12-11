@@ -1,0 +1,11 @@
+{
+  "name": "WebPaint",
+  "version": "1.0.0",
+  "description": "A web based paint application.",
+  "dependencies": {
+  	"javascript":"enabled"
+  	},
+  "author": "Asif Mohammad Mollah",
+  "organization": "Geek Of Codes",
+  "package-url": "https://github.com/GeekOfCodes/WebPaint.git",
+}

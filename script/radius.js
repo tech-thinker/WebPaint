@@ -6,7 +6,7 @@ var setRadius=function(newRadius) {
 		newRadius=minRad;
 	else if(newRadius>maxRad)
 		newRadius=maxRad;
-	radius=newRadius;
+	radius=newRadius==5.5?5:newRadius;
 	context.lineWidth=radius*2;
 	radSpan.innerHTML=radius;
 }

@@ -1,6 +1,6 @@
 //	colors.js
 
-var colors=['black','gray','white','red','orange','yellow','green','blue','indigo','violet'];
+var colors=['black','gray','white','red','orange','#EE8805','yellow','green','#0588EE','blue','indigo','violet'];
 
 var swatchs=document.getElementsByClassName('swatch');
 /*

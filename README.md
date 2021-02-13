@@ -7,7 +7,7 @@ A web based paint application. It is a project by using only front-end languages
   3. JavaScript  
 
 ## See our project:
-  Just see our project by [click here.](http://geekofcodes.github.io/WebPaint/)  
+  Just see our project by [click here.](http://tech-thinker.github.io/WebPaint/)  
 
 ##  Documentation:
   Documentation will publish soon.
